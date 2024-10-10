@@ -77,3 +77,17 @@ nav div h4 {
 .wife-child-3{
     display: flex;
 }
+
+
+/* Section 6 */
+.section-6{
+    background-image: url(../assets/handshake.jpg);
+}
+
+
+
+
+/* Footer */
+footer section{
+    display: flex;
+}
