@@ -1,0 +1,54 @@
+* {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+
+/* NAV Style  */
+nav div {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 100px;
+}
+
+
+nav div h4 {
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+
+
+/* Baner Section  */
+#baner-1 {
+    background-image: url(../assets/Hero-bg.png);
+    height: 600px;
+    width: auto;
+    text-align: center;
+}
+
+
+.baner-praint{
+    
+    
+
+    
+}
+
+
+
+
+
+/* Section 2 */
+.child-1{
+    display: flex;
+}
+
+
+.child-2{
+    display: flex;
+}
