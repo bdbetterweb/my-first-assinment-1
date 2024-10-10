@@ -341,4 +341,7 @@ background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
 .ft-end {
     display: flex;
     justify-content: space-between;
+    border-radius: 16px;
+background: rgba(13, 19, 33, 0.03);
+margin-top: 20px;
 }
