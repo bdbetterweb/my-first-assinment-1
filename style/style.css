@@ -4,90 +4,156 @@
     font-style: normal;
 }
 
+.main-size {
+    max-width: 1280px;
+    margin: 0px auto;
+}
 
-
-/* NAV Style  */
-nav div {
+.nav-p {
     display: flex;
-    /* justify-content: center; */
-    align-items: center;
     justify-content: space-between;
-    margin: 20px 100px;
+    margin: 0px 150px 30px;
 }
 
-
-nav div h4 {
-    font-size: 28px;
-    font-weight: bolder;
+nav button {
+    padding: 22px;
 }
 
+.leon {
+    /* font-size: 30px; */
+}
+
+/* NAV END */
 
 
-/* Baner Section  */
+/* Baner St */
 #baner-1 {
+    margin-top: 20px;
     background-image: url(../assets/Hero-bg.png);
-    height: 600px;
-    width: auto;
+    text-align: center;
+    height: 640px;
+
+}
+
+.baner-1-ch {
+    font-size: 48px;
+}
+
+
+.baner-1-ph {
+    font-size: 16px;
+}
+
+.btn-conct {
+    background-color: #0D1321;
+    padding: 25px;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+.btn-conct a {
+    color: white;
+}
+
+
+/* Section 1 End */
+
+
+
+
+/* Baner 2 ST */
+.baner2 {
+    margin-top: 154px;
+}
+
+.section-2-title {
     text-align: center;
 }
 
+.child-1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 124px;
+    margin-bottom: 90px;
 
-.baner-praint{
-    
-    
+}
 
-    
+.child-1-Nati-1 {
+    width: 477px;
+
+}
+
+.child-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* END */
+
+
+/* Section 3 ST */
+.parent-3 {
+    margin-top: 90px;
+}
+
+.parent-3-chil-1 {
+    text-align: center;
+}
+
+.parent-3-chil-1 h3 {
+    font-size: 30px;
+}
+
+.parent-3-child-2 {
+    margin-top: 48px;
+    text-align: center;
+}
+
+/* Section 3 End */
+
+
+
+/* ************************ */
+/* Section 4 Strd */
+/* ************************ */
+.parent-4 {
+    margin-top: 150px;
+
+}
+
+.brother-1 {
+    width: 700px;
+    margin: 0px auto;
+
+}
+
+.brother-1 h3 {
+    text-align: center;
+    font-size: 30px;
+
 }
 
 
-
-
-
-/* Section 2 */
-.child-1{
+.brother-2 {
     display: flex;
+    justify-content: space-around;
+    margin-top: 48px;
 }
 
-
-.child-2{
-    display: flex;
+.brother-2-child-1 {
+    width: 364px;
+    height: 299px;
+    background-color: #FF4C1E0D;
 }
 
-
-
-
-/* Section 2 */
-.brother-2{
-    display: flex;
-    
+.brother-2-child-2 {
+    width: 364px;
+    height: 299px;
+    background-color: #004CE80D;
 }
 
-
-
-/* Section 5 */
-.wife-child-1{
-    display: flex;
-}
-
-
-.wife-child-2{
-    display: flex;
-}  
-
-.wife-child-3{
-    display: flex;
-}
-
-
-/* Section 6 */
-.section-6{
-    background-image: url(../assets/handshake.jpg);
-}
-
-
-
-
-/* Footer */
-footer section{
-    display: flex;
+.brother-2-child-3 {
+    width: 364px;
+    height: 299px;
+    background-color: #FFDF000D;
 }
