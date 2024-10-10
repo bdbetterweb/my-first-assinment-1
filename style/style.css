@@ -4,6 +4,12 @@
     font-style: normal;
 }
 
+/* samlr a style */
+.x{
+    color: #0D1321;
+    font-weight: 700;
+}
+
 .main-size {
     max-width: 1280px;
     margin: 0px auto;
@@ -179,6 +185,8 @@
     background-color: #FF4C1E0D;
     padding-top: 20px;
     padding-left: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
 }
 
 .brother-2-child-2 {
@@ -187,6 +195,8 @@
     background-color: #004CE80D;
     padding-top: 20px;
     padding-left: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
 }
 
 .brother-2-child-3 {
@@ -195,6 +205,8 @@
     background-color: #FFDF000D;
     padding-top: 20px;
     padding-left: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
 }
 
 
@@ -314,7 +326,11 @@
     color: white;
 }
 
-.section-6-in-btn {}
+.section-6-in-btn {
+display: flex;
+justify-content: center;
+gap: 10px;
+}
 
 .end-1 {
     text-align: center;
@@ -327,15 +343,20 @@
 
 .end-2 {
     color: #0D1321;
-    font-size: 30px;
+    padding: 14px;
+    font-size: 10px;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
     background: rgb(255, 255, 255);
+    
 }
 
 .end-2 a {
     color: #0D1321;
     text-decoration: none;
+    font-weight: 800;
+    
+
 }
 
 
