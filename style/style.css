@@ -11,16 +11,32 @@
 
 .nav-p {
     display: flex;
-    justify-content: space-between;
-    margin: 0px 150px 30px;
+    justify-content: space-between;   
+    align-items: center;
+    margin: 0px 150px;
 }
 
-nav button {
-    padding: 22px;
-}
 
 .leon {
-    /* font-size: 30px; */
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-btn-m{
+    width: 244px;
+height: 57px;
+font-size: 20px;
+
+}
+.nav-btn-m:hover{
+    background-color: #004CE8; /* Change background color on hover */
+    color: #fff; 
+
+}
+
+.nav-btn-m a{
+ text-decoration: none;
+ color: #0D1321;
 }
 
 /* NAV END */
@@ -49,10 +65,17 @@ nav button {
     padding: 25px;
     margin-top: 25px;
     border-radius: 5px;
+
 }
 
 .btn-conct a {
     color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.btn-conct:hover {
+    background-color: #004CE8; /* Change background color on hover */
+    color: #fff; 
 }
 
 
@@ -88,7 +111,12 @@ nav button {
     justify-content: space-around;
 }
 
-/* END */
+.L-btn{
+    width: 171px;
+height: 47px;
+}
+
+/* 2 END */
 
 
 /* Section 3 ST */
@@ -138,22 +166,179 @@ nav button {
     display: flex;
     justify-content: space-around;
     margin-top: 48px;
+    
 }
 
 .brother-2-child-1 {
     width: 364px;
     height: 299px;
     background-color: #FF4C1E0D;
+    padding-top: 20px;
+    padding-left: 40px;
 }
 
 .brother-2-child-2 {
     width: 364px;
     height: 299px;
     background-color: #004CE80D;
+    padding-top: 20px;
+    padding-left: 40px;
 }
 
 .brother-2-child-3 {
     width: 364px;
     height: 299px;
     background-color: #FFDF000D;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+
+
+/* Section 4 End */
+
+
+
+/* ******************** */
+/* Section 5 Strd */
+/* ********************* */
+
+.section-5 {
+    margin-top: 100px;
+
+}
+
+.section-5-title {
+    width: 852px;
+    height: 113px;
+    margin: 0px auto;
+}
+
+.section-5-title h3 {
+    text-align: center;
+}
+
+.section-5-title p {
+    text-align: center;
+}
+
+.all-wife {
+    margin: 0px auto;
+    width: 1140px;
+
+
+}
+
+.wife-child-1 {
+    width: 1140px;
+    height: 219px;
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    margin-bottom: 65px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding-left: 40px;
+}
+
+
+
+.wife-child-2 {
+    width: 1140px;
+    height: 219px;
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    margin-bottom: 65px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding-left: 40px;
+}
+
+
+
+.wife-child-3 {
+    width: 1140px;
+    height: 219px;
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    margin-bottom: 65px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding-left: 40px;
+}
+
+
+/* Section 5 End */
+
+
+/* *********************** */
+/* Section 6 Strd */
+/* ************************* */
+.section-6 {
+    margin: 49px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1140px;
+    height: 400px;
+    background-image: url(../assets/handshake.png);
+    border-radius: 16px;
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+
+
+}
+
+.section-6-clid-1 {
+    text-align: center;
+    padding-top: 35px;
+}
+
+.section-6-clid-1 h4 {
+    font-size: 32px;
+    color: white;
+}
+
+.section-6-clid-1 p {
+    font-size: 16px;
+    color: white;
+}
+
+.section-6-in-btn {
+    
+}
+
+.end-1 {
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+.end-2 {
+    color: #0D1321;
+    font-size: 30px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+.end-2 a {
+    color: #0D1321;
+    text-decoration: none;
+}
+
+
+/* Footer ST */
+.ft-end {
+    display: flex;
+    justify-content: space-between;
 }
